@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.banner{
+    display: flex;
+    background-color: #EFFAFF;
+    width: 1140px;
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
+.metade {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.titulo{
+    color: #FF8A00;
+    border: 0.7px solid #FF8A00;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+    width: 936px;
+    height: 96px;
+    top: 88px;
+    left: 60px;
+    border-width: 0.7px;
+    
+
+}
+.paragrafo-texto{
+    width: 664px;
+    height: 92px;
+    top: 211px;
+    left: 60px;
+    font-family: Mulish;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+
+}
+.button{
+    display: flex;
+    background-color: #FF8A00;
+    font-family: "Major Mono Display", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor:pointer;
+    width: 194px;
+    height: 40px;
+    top: 330px;
+    left: 60px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    gap: 10px;
+
+
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+
+    
+} 
+.image-protetor{
+    width: 226px;
+    height: 226px;
+    top: 204px;
+    left: 688px;
+
+}
+.image-creme{
+    width: 246px;
+    height: 246px;
+    top: 184px;
+    left: 797px;
+
+}
+.image-mulher{
+    width: 707px;
+    height: 472px;
+    left: 934px;
+    /* box-shadow: 0px 4px 4px 0px #00000040; */
+
+}
