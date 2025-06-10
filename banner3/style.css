@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px 0 0 30px;
     /* padding: 40px 60px; */
 }
 
@@ -33,8 +34,8 @@
 
 
 .titulo{
-    width: 480;
-    height: 77;
+    width: 480px;
+    height: 77px;
     font-family: Bebas Neue;
     font-weight: 400;
     font-size: 64px;
@@ -45,8 +46,8 @@
 }
 
 .texto{
-    width: 549;
-    height: 50;
+    width: 549px;
+    height: 50px;
     font-family: Mulish;
     font-weight: 400;
     font-size: 20px;
@@ -58,44 +59,59 @@
 
 .imagens1{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 20px;    
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 20px; */
+    padding: 20px 0 0 30px;
 } 
 .image-logo{
-    width: 80;
-    height: 45;
+    width: 80px;
+    height: 45px;
     top: 21px;
     left: 30px;
+
 }
 .imagens2{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    gap: 20px;    
+    align-items: center;
+    /* gap: 20px;     */
 } 
 .image4{
-    width: 582;
-    height: 325;
+    width: 411px;
+    height: 285px;
     top: 44px;
     left: 43px;
 }
 .image1{
-    width: 133;
-    height: 70;
+    width: 133px;
+    height: 70px;
 }
 .image2{
-    width: 132;
-    height: 70;
+    width: 132px;
+    height: 70px;
 }
 .image3{
-    width: 133;
-    height: 70;
+    width: 133px;
+    height: 70px;
+}
+.yd{
+    width: 109px;
+    height: 25px;
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+    color: #4E4E4E;
+
+
 }
 
 .button{
-    width: 172;
-    height: 37;
+    width: 172px;
+    height: 37px;
     top: 344px;
     left: 1122px;
     gap: 10px;
@@ -118,16 +134,15 @@
 
 }
 .linha1{
-    width: 264.0000000000002;
+    width: 264.0000000000002px;
     top: 81px;
     left: 665px;
-    angle: -90 deg;
     border-width: 1px;
     border: 1px solid #000000
 }
 .linha2{
-    width: 74.00000000000007;
-    angle: -90 deg;
+    width: 74.00000000000007px;
+    transform: rotate(-90deg);
     border-width: 0.5px;
     border: 0.5px solid #000000
 }
