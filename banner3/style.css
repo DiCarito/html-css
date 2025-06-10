@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 
 .banner{
     display: flex;
@@ -6,24 +9,24 @@
     width: 1140px;
     height: 430px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .metade1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     /* padding: 40px 60px; */
 }
 .metade2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     /* padding: 40px 60px; */
 }
 
 .group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     /* padding: 40px 60px; */
 }
@@ -67,7 +70,7 @@
 }
 .imagens2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
     gap: 20px;    
 } 
@@ -90,7 +93,6 @@
     height: 70;
 }
 
-
 .button{
     width: 172;
     height: 37;
@@ -102,6 +104,30 @@
     padding-bottom: 6px;
     padding-left: 24px;
     background: #C39E93;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
+    color: #FFFFFF;
 
-
+}
+.linha1{
+    width: 264.0000000000002;
+    top: 81px;
+    left: 665px;
+    angle: -90 deg;
+    border-width: 1px;
+    border: 1px solid #000000
+}
+.linha2{
+    width: 74.00000000000007;
+    angle: -90 deg;
+    border-width: 0.5px;
+    border: 0.5px solid #000000
 }
